@@ -28,9 +28,9 @@
           ><i class="material-icons">menu</i></a
         >
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">servicios</a></li>
-          <li><a href="#">trabajos</a></li>
-          <li><a href="#">contacto</a></li>
+          <li><a href="#service">Servicios</a></li>
+          <li><a href="#work">Trabajos</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
         <ul class="sidenav" id="mobile-demo">
           <li><a href="#">Servicios</a></li>
@@ -53,7 +53,10 @@
         </div>
         <div class="row">
           <div class="col 14">
-            <a class="waves-effect btn-large hoverable red lighten-1"
+            <a
+              class="waves-effect btn-large hoverable red lighten-1"
+              href="https://api.whatsapp.com/send/?phone=5491132528668&text&app_absent=0"
+              target="_blank"
               >Contactar</a
             >
           </div>
@@ -63,8 +66,9 @@
     </div>
 
     <!-- Services -->
-    <div class="container">
+    <div class="container" id="service">
       <div class="row">
+        <a href="#service"></a>
         <h2 class="section-header">Servicios</h2>
       </div>
       <div class="row">
@@ -164,16 +168,174 @@
             <h2 class="center-align white-text cta">
               Interesado en trabajar juntos?
             </h2>
-            <a href="#" class="center btn-large hoverable red accent-2"
+            <a
+              href="https://api.whatsapp.com/send/?phone=5491132528668&text&app_absent=0"
+              class="center btn-large hoverable red accent-2"
+              target="_blank"
               >Contactar</a
             >
           </div>
         </div>
       </div>
       <div class="parallax">
-        <img src="img/Diseño sin título (2).png" />
+        <img src="img/laptop.png" />
       </div>
     </div>
+
+    <!---Work section-->
+    <div class="container" id="work">
+      <h2 class="section-header">Trabajos realizados</h2>
+      <div class="row">
+        <div class="col 14 m4 offset-m2 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/work1.png" />
+            </div>
+            <div class="card-content">
+              <span
+                class="card-title activator grey-text text-darken-4 title-card"
+                >Blog Gamer<i class="material-icons right">more_vert</i></span
+              >
+              <p>
+                <a
+                  href="https://danicv-coder.github.io/multimedia-web-design/"
+                  target="_blank"
+                  >ver sitio en vivo</a
+                >
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Blog Gamer<i class="material-icons right">close</i></span
+              >
+              <p>
+                Este sitio web fue diseñado para los amantes de los videojuegos,
+                con toda la tendencia de la industria de las nuevas consolas y
+                juegos del 2021.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col 4 m4 offset-m2 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/work3.png" />
+            </div>
+            <div class="card-content">
+              <span
+                class="card-title activator grey-text text-darken-4 title-card"
+                >Veterinaria<i class="material-icons right">more_vert</i></span
+              >
+              <p>
+                <a
+                  href="https://veterinariadc.000webhostapp.com/"
+                  target="_blank"
+                  >ver sitio en vivo</a
+                >
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Veterinaria<i class="material-icons right">close</i></span
+              >
+              <p>
+                Pagina web desarrollada para la vectirinaria Dc con un excelente
+                aspecto y amigable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <!--About section-->
+    <div class="container">
+      <div class="row">
+        <h2 class="section-header">Sobre mi</h2>
+      </div>
+      <div class="row">
+        <p class="flow-text">
+          Mi nombre es Daniel Enrique Calderon Vera, tengo 23 años actualmente
+          curso la carrera ingenieria informatica, Soy desarrollador web Front
+          end. Me dedico crear paginas y componentes visuales de un sitio web.
+        </p>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <!--Contact section-->
+    <div class="container" id="contact">
+      <div class="row">
+        <h2 class="section-header">Contactame</h2>
+      </div>
+    </div>
+    <div class="container grey darken-4 contact-form">
+      <div class="row">
+        <div class="col 18 offset-12 m11 s12">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input
+                    placeholder=""
+                    id="first_name"
+                    type="text"
+                    class="validate"
+                  />
+                  <label for="first_name">Nombre</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate" />
+                  <label for="last_name">Apellido</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate" />
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class=" valign-wrapper">
+                <a
+                href="#"
+                class="center btn-large hoverable red accent-2"
+                target="_blank"
+                >Enviar</a
+              >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer section-->
+    <footer class="page-footer red lighten-1">
+      <div class="container">
+        <div class="row">
+          <div class="col 16 s12">
+            <h5 class="white-text">Daniel Calderon Developer</h5>
+            <ul>
+              <li class="grey-text text-lighten-4">UI/UX Design</li>
+              <li>Mantenimiento de Sitio</li>
+              <li>Desasallo html</li>
+              <li>Hosting</li>
+            </ul>
+          </div>
+          <div class="col 14 offset-12 s12">
+            <h5 class="white-text"></h5>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright  black">
+        <div class="container">
+          <p>
+            &copy; 2021 Copyright Daniel Calderon, todos los derechos
+            reservados.
+          </p>
+          <a href="#" class="grey-text text-lighten-4 right">Politica de privacidad</a>
+        </div>
+      </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
